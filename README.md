@@ -15,19 +15,45 @@ In this project, we analyze data collected from various IM apps to examine their
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/yourusername/IM-Traffic-Analysis.git`
-2. Installation: [Provide installation instructions if applicable]
-3. Data Collection: [Explain how to collect IM app traffic data]
-4. Analysis: [Detail the steps to analyze the collected data]
-5. Results: [Document the findings and insights]
 
+<ol class="getting-started-list">
+    <li>Clone the repository:
+        <pre><code class="language-sh">git clone https://github.com/yourusername/IM-Traffic-Analysis.git</code></pre>
+    </li>
+    <li>Installation:
+        <ul>
+            <li><strong>Install Wireshark:</strong> Download and install Wireshark from <a href="https://www.wireshark.org/" target="_blank">wireshark.org</a>.</li>
+            <li><strong>Install Python Interpreter:</strong> If not already installed, get Python from <a href="https://www.python.org/" target="_blank">python.org</a>.</li>
+        </ul>
+    </li>
+    <li>Data Collection:
+        <ul>
+            <li>Open Wireshark and start capturing network traffic.</li>
+            <li>Use relevant filters to capture traffic from the IM apps you want to analyze.</li>
+        </ul>
+    </li>
+    <li>Analysis:
+        <ul>
+            <li>Review captured data using Wireshark to identify relevant packets.</li>
+            <li>Utilize Python scripts in this repository to process captured data and extract meaningful insights.</li>
+            <li>Modify the scripts as needed to fit your analysis requirements.</li>
+        </ul>
+    </li>
+    <li>Results:
+        <ul>
+            <li>Visualize findings and insights from the analysis using graphs and charts.</li>
+            <li>Document your observations and conclusions in reports or documentation.</li>
+        </ul>
+    </li>
+</ol>
 ## Contribution Guidelines
 
 We welcome contributions from the community to enhance the project's scope and impact. If you have insights, code improvements, or additional app data to share, please feel free to submit a pull request.
 
 ## License
 
-[Choose and specify the license you've selected for your project]
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
 
 ## Contact
 
